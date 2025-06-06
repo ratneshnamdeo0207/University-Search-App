@@ -1,0 +1,115 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f4ff; /* soft bluish */
+  color: #1c1c2b;
+  padding: 20px;
+}
+
+/* Center the input section */
+.container {
+  background: linear-gradient(to bottom right, #e0ecff, #d1dfff);
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.container h2 {
+  color: #1a2c5b;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  width: 80%;
+  border: 2px solid #91baff;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #2d65f2;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background-color: #2d65f2;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #234ec4;
+}
+
+/* Results container */
+#c {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+/* College card style */
+.college-card {
+  background-color: #ffffff;
+  border-left: 5px solid #2d65f2;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.college-card:hover {
+  transform: scale(1.02);
+}
+
+.college-card h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2d65f2;
+  margin-bottom: 6px;
+}
+
+.college-card h5 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #1f2f55;
+}
+
+.college-card ol {
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.college-card ol:first-of-type {
+  color: #2c3e50;
+}
+
+.college-card li {
+  font-size: 0.95rem;
+  color: #333;
+}
