@@ -4,13 +4,13 @@ This is a simple and responsive frontend web application that lets users search 
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Screenshots
 
-### 🔎 University Search Interface
-![Search Interface](./Screenshot (354).png)
+### 🔹 University Search Interface  
+![Search Interface](./Screenshot%20%28354%29.png)
 
-### 🏫 Displayed University Results
-![University List](./Screenshot (356).png)
+### 🔹 Displayed University Results  
+![University List](./Screenshot%20%28356%29.png)
 
 ## ✨ Features
 
